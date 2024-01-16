@@ -98,7 +98,7 @@
 
 /* mobile divice  */
 @media only screen and (min-width: 600px) and (max-width: 650px) {
-/* @media screen and (max-width: 600px ) { */
+    /* @media screen and (max-width: 600px ) { */
     .banner {
         display: block;
         background-size: cover;
@@ -139,14 +139,12 @@
         width: 350pc;
     }
     /* destinatin section  */
-    .destination{
-    width: 100%;
-    
-}
-.destination .destination-info{
-    width: 600px;
-   
-}
+    .destination {
+        width: 100%;
+    }
+    .destination .destination-info {
+        width: 600px;
+    }
     .row-1 {
         flex-direction: column;
     }
@@ -156,30 +154,38 @@
     .row-3 {
         flex-direction: column;
     }
-.choose-card {
-    flex-direction: column;
-    grid-row: 1;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
+    .choose-card {
+        flex-direction: column;
+        grid-row: 1;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
 
-    margin: 20px auto;
-
-}
-.choose-content {
-    text-align: center;
-    width: 350px;
-    padding: 10px 0;
-}
-.card-1 {
-    width: 350px;
-    padding: 10px;
-}
-.card-2{
-    width: 350px;
-    padding: 10px;
-}
-.card-3 {
-    width: 350px;
-    padding: 10px;
-}
+        margin: 20px auto;
+    }
+    .choose-content {
+        text-align: center;
+        width: 350px;
+        padding: 10px 0;
+    }
+    .card-1 {
+        width: 350px;
+        padding: 10px;
+    }
+    .card-2 {
+        width: 350px;
+        padding: 10px;
+    }
+    .card-3 {
+        width: 350px;
+        padding: 10px;
+    }
+    .news-letter {
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer {
+        width: 300px;
+    }
 }

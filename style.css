@@ -130,8 +130,10 @@ nav {
 }
 .tours-content h3 {
     font-size: 30px;
+    padding: 20px 0px;
 }
 .tours-container p {
+    color: black;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 20px;
@@ -187,7 +189,7 @@ nav {
     margin-left: 40%;
 }
 /* choose section  */
-.choose-container{
+.choose-container {
     margin: 30px 0;
 }
 .choose-content {
@@ -225,4 +227,156 @@ nav {
     border: 1px solid rgba(233, 68, 68, 0.2);
     background: rgba(233, 68, 68, 0.05);
     padding: 20px 10px;
+}
+/* news letter section */
+.news-letter {
+    width: 1200px;
+    display: flex;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribe {
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    width: 420px;
+    /* background: purple; */
+    border-radius: 80px 0 80px 0;
+}
+.subscribe h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.subscribe .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgb(245, 241, 241);
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: white;
+    font-size: 20px;
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    transform: translateY(50%);
+    font-size: 20px;
+}
+.subscribe .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px 0 15px;
+}
+.remember-forget label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forget a {
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forget a:hover {
+    text-decoration: underline;
+}
+.subscribe .btn {
+    width: 100%;
+    height: 45px;
+    background: salmon;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, alph.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.discount-image {
+    position: relative;
+}
+.discount {
+    width: 300px;
+    display: block;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 350px;
+    transform: rotate(-25deg);
+}
+.discount p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ff5400;
+    text-align: center;
+}
+*/ .discount p span {
+    font-size: 30px;
+    font-weight: 600;
+}
+/* footer section  */
+footer {
+    width: 1200px;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-logo {
+    width: 150px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.footer-logo p {
+    padding: 20px 0px;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-logo p span {
+    color: #ff5400;
+}
+.footer-logo div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.social {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.social img {
+    width: 30px;
+}
+footer hr{
+    margin: 20px ;
+}
+footer h6{
+    margin-bottom: 
+    20px;
 }
