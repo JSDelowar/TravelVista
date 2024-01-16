@@ -92,9 +92,13 @@
         flex-wrap: wrap;
     }
 }
+/* Styles applied when the viewport width is between 600 and 1200 pixels */
+/* Add your styles here */
+/* } */
 
 /* mobile divice  */
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 650px) {
+/* @media screen and (max-width: 600px ) { */
     .banner {
         display: block;
         background-size: cover;
@@ -126,15 +130,13 @@
     /* tours  */
     .tours-container {
         flex-direction: column;
+        width: 350px;
     }
     .tours-content {
-        box-sizing: border-box;
-        box-shadow: 10px;
-        border-radius: 20px;
-        width: 90%;
+        width: 350;
     }
     .tours-image {
-        width: 100%;
+        width: 350pc;
     }
     /* destinatin section  */
     .destination{
@@ -154,4 +156,30 @@
     .row-3 {
         flex-direction: column;
     }
+.choose-card {
+    flex-direction: column;
+    grid-row: 1;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+
+    margin: 20px auto;
+
+}
+.choose-content {
+    text-align: center;
+    width: 350px;
+    padding: 10px 0;
+}
+.card-1 {
+    width: 350px;
+    padding: 10px;
+}
+.card-2{
+    width: 350px;
+    padding: 10px;
+}
+.card-3 {
+    width: 350px;
+    padding: 10px;
+}
 }
