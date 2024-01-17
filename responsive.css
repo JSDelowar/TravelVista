@@ -176,6 +176,17 @@
     .row-3 {
         flex-direction: column;
     }
+    /* tourist guide section  */
+    .guide {
+        width: fit-content;
+    }
+    .profile {
+        flex-direction: column;
+    }
+    .guide-profile {
+        width: 300px;
+    }
+    /* choose us section  */
     .choose-card {
         flex-direction: column;
         grid-row: 1;
@@ -201,11 +212,18 @@
         width: 350px;
         padding: 10px;
     }
+    /* news letter section  */
     .news-letter {
         width: 500px;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+    .discount-image {
+        width: 400px;
+    }
+    .discount {
+        margin-left: 0px;
     }
     footer {
         width: 300px;
